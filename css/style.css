@@ -13,44 +13,95 @@ body {
     
 }
 
-.container {
-    max-width: 1200px;
-}
 
 .global-header {
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    border-bottom:1px solid #ececec;
+    margin:auto;
+   
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 215px;
-    width: 165px;
-    flex-direction: row;
-    
+   align-self: center;
 }
 
-.nav-container {
-    display: flex;
-    width: 80%;
-    align-items: center;
-    justify-content: space-between;
 
-}
 
 .nav-container .main-navigation ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    gap: 60px;
     
 }
 
+.contacts-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 60px;
+}
 
+.title-button {
+    display: flex;
+    background-color: #2F303A;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+   
+}
+
+.studio-list {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.global-footer {
+    padding: 50px 100px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+ padding: 94px;
+ border-radius: 4px;
+   
+}
+
+
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 94px;
+    gap: 50px;
+   
+}
+
+.cards-list .item {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    top: 262px;
+    left: 215px;
+}
 
 
 .global-header .main-navigation a:link, 
@@ -229,6 +280,7 @@ h1 {
     font-weight: 500;
     line-height: 26px; /* 162.5% */
     letter-spacing: 0.48px; ;
+    border: none;
  }
 
  .about-us-section h2 { 
