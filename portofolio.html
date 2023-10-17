@@ -13,15 +13,24 @@
 <body>
 
     <header class="global-header">
-        <a href="./about.html"><span class="Web">Web</span><span class="Studio">Studio</span></a>
 
-        <nav class="main-navigation">
-            <ul>
-                <li><a href="./index.html" class="nav-link " >Studio</a></li>
-                <li><a href="./portofolio.html" class="nav-link-current" >Portfolio</a></li>
-                <li><a href="./about.html" class="nav-link ">Contacts</a></li>
-            </ul>
-        </nav>
+        <div class="logo-container">
+        <a href="./about.html">
+            <span class="Web">Web</span>
+            <span class="Studio">Studio</span>
+        </a>
+        </div>
+
+        <div class="nav-container">
+
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="./index.html" class="nav-link " >Studio</a></li>
+                    <li><a href="./portofolio.html" class="nav-link-current" >Portfolio</a></li>
+                    <li><a href="./about.html" class="nav-link ">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
 
         <div class="contacts-header">
             <a href="https://www.google.com/intl/ro/gmail/about/" target="_blank" >info@devstudio.com</a>
@@ -31,13 +40,13 @@
     </header>
 
     <!--Main Section-->
-        <main>
+        <main class="main-section">
 
     <!--Buttons Section-->
 
     <div class="first-section">
 
-        <ul>
+        <ul class="button-container">
             <li> <button type="button" class="button-focus">All</button> </li>
             <li> <button type="button" class="button-focus">Web-sites</button> </li>
             <li> <button type="button" class="button-focus">Apps</button> </li>
@@ -49,81 +58,140 @@
 
     <!--Services Section-->
 
-    <section class="second-section">
-        <ul>
-        <li>
-            <img src="images/laptop-img1(1).jpg" alt="Technoduck">
-            <br>
-            <h2>Technoduck</h2>
-            <br>
-            <span>Web-site</span>
-        </li>
 
-        <li>
-            <img src="images/poster-img2(1).jpg" alt="Design">
+    
+    <section class="second-section">
+
+
+        <div class="cards-container">
+            
+        <ul class="cards-list">
+
+        <li class="item">
+            <img class="img-card" src="images/laptop-img1(1).jpg" alt="Technoduck"  width="370" >
+            
+            <div class="card-details">
+            <h2 >Technoduck</h2>
+           
+            <span>Web-site</span>
+            </div>
+
+        </li>
+    
+    
+        <li class="item">
+            <img class="img-card" src="images/poster-img2(1).jpg" alt="Design"  width="370">
             <br>
+                <div class="card-details">
             <h2>Poster New Orlean vs Golden Star</h2>
             <br>
             <span>Design</span>
+                </div>
         </li>
-
-        <li>
-            <img src="images/seafood-img3(1).jpg" alt="SeafoodRestaurant">
+   
+    
+    
+   
+        <li class="item">
+            <img class="img-card"  src="images/seafood-img3(1).jpg"  alt="SeafoodRestaurant"  width="370" >
             <br>
+                <div class="card-details">
             <h2>Seafood Restaurant </h2>
             <br>
             <span>Apps</span>
+                </div>
         </li>
 
-        <li>
-            <img src="images/headphones-img4(1).jpg" alt="Headphones">
+   
+    
+    
+
+    
+        <li class="item">
+            <img class="img-card" src="images/headphones-img4(1).jpg" alt="Headphones"  width="370" >
             <br>
+                <div class="card-details">
             <h2>Project Prime</h2>
             <br>
             <span>Marketing</span>
+                </div>
         </li>
+    
+        
 
-        <li>
-            <img src="images/boxes-img5(1).jpg" alt="Boxes">
+
+    
+        <li class="item">
+            <img class="img-card" src="images/boxes-img5(1).jpg" alt="Boxes"  width="370">
             <br>
+
+                <div class="card-details">
             <h2>Project Boxes</h2>
             <br>
             <span>Apps</span>
+                </div>
         </li>
+    
+    
 
-        <li>
-            <img src="images/computer-img6(1).jpg" alt="Computer">
+   
+        <li class="item">
+            <img class="img-card" src="images/computer-img6(1).jpg" alt="Computer"  width="370" >
             <br>
+
+                <div class="card-details">
             <h2>Inspiration has no Borders</h2>
             <br>
             <span>Web-site</span>
+                </div>
         </li>
+    
+    
+    
 
-        <li>
-            <img src="images/limited-edition-img7(1).jpg" alt="LimitedEdition">
+        <li class="item">
+            <img class="img-card" src="images/limited-edition-img7(1).jpg" alt="LimitedEdition" width="370" >
             <br>
+
+                <div class="card-details">
             <h2>Limited Edition</h2>
             <br>
             <span>Design</span>
+                </div>
         </li>
+    
 
-        <li>
-            <img src="images/project-lab-img8(1).jpg" alt="Project Lab">
+
+   
+        <li class="item">
+            <img class="img-card" src="images/project-lab-img8(1).jpg" alt="Project Lab" width="370" >
             <br>
+
+                <div class="card-details">
             <h2>Project LAB</h2>
             <br>
             <span>Marketing</span>
+                </div>
         </li>
+    
 
-        <li>
-            <img src="images/laptop-business-img9(1).jpg" alt="Working on Laptop">
+
+   
+        <li class="item">
+            <img class="img-card" src="images/laptop-business-img9(1).jpg" alt="Working on Laptop" width="370" >
             <br>
+
+                <div class="card-details">
             <h2>Growing Business</h2>
             <br>
             <span>Apps</span>
+                </div>
         </li>
-
+   
         </ul>
+
+    </div>
+
     </section>
 
         </main>
