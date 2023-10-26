@@ -133,7 +133,7 @@ body {
     padding: 10px 15px;
 }
 
-.title-button .button-request :hover  {
+ .title-button .button-request :hover  {
     background-color: var(--hover-color);
     color:var(--body-color);;
     text-align: center;
@@ -144,7 +144,13 @@ body {
     line-height: 30px; /* 187.5% */
     letter-spacing: 0.96px;
    
+} 
+
+.first-section .button-request :hover {
+    color: var(--hover-color);
 }
+
+
 
 
 
